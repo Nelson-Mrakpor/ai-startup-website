@@ -108,3 +108,53 @@ Jerry's changes were also staged, committed, and pushed.
 
 This project demonstrates a collaborative Git workflow using branches, commits, and GitHub to manage contributions in a team setting — all through the lens of two fictional DevOps engineers. It reinforces the importance of version control, teamwork, and best practices in DevOps environments.
 
+
+
+
+# AI startup project continued...
+## Merging Tom and Jerry's changes
+---
+
+### Tom's Pull and Merge.
+On Tom's branch in github a pull request was made to pull up Tom's changes for review.
+
+![Tom's Pull Request](tom_pull_request.png)
+
+Once the necessary changes have been made a merge was initiated and confirmed.
+
+![Tom's Changes merged](merge_tom_pull_request.png)
+
+Now with a sucessful merge it is time to review Jerry's changes.
+
+---
+
+### Updating main branch in local directory
+A pull request was made from the main branch in vscode to ensure all changes are synchronized.
+
+![Pulling Tom's changes](pulling_tom_merge.png)
+
+Once the merge have been pull and verified there are no conflicts, a push from Jerry's branch was initiated.
+
+---
+
+### Updating remote repository with changes
+
+![Pushing from Jerry's branch](pushing_jerry_branch.png)
+
+On Jerry's branch in github a pull request was made to pull up Jerry's changes for review.
+
+---
+
+### Jerry's Pull and Merge
+
+![Jerry's pull request](jerry_pull_request.png)
+
+After Review and necessary changes made a merge was initiated and confirmed
+
+![Merge Jerry's changes](merge_jerry_pull_request.png)
+
+---
+
+## Summary
+
+This project demonstrates how team members collaborate on common projects demonstrating Git workflow using pull requests, and merges reinforcing the importance of version control system in the day to day activities of DevOps Engineers.
